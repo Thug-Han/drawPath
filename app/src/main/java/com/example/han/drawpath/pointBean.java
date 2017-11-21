@@ -16,6 +16,7 @@ public class pointBean {
         this.y = y;
     }
 
+
     public float getX() {
         return x;
     }
@@ -30,5 +31,14 @@ public class pointBean {
 
     public void setY(float y) {
         this.y = y;
+    }
+
+
+    @Override
+    public String toString() {
+        return "PointBean{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
